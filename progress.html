@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kiwanis Field Progress</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	var raised = 1429090;
+	function onLoad() {
+		var person = document.getElementById("Person");
+		person.style.backgroundPosition = -((1 - (raised/2000000)) * 785) + 'px';
+	}
+</script>
+<style type="text/css">
+	* {
+		margin:0;
+		padding:0;
+		font-family: 'Open Sans', sans-serif;
+		font-size:18px;	
+	}
+	
+	.Progress {
+		position:absolute;
+		display:block;
+		background-color:#800000;
+		height:40px;
+		left:0;
+		z-index:0;
+	}
+	
+	.Field {
+		position:relative;
+		display:block; 
+		width:785px;
+		height:40px;
+		line-height:40px;
+		background-color:#d5e4af;
+		font-size:24px;
+		color:#002F5F;
+		font-weight:bolder;
+	}
+	
+	.Raised {
+		position:relative;
+		float:left;
+		margin-left:10px;
+		z-index:1;
+	}
+	
+	.Goal {
+		position:relative;
+		float:right;
+		margin-right:10px;
+		z-index:1;
+	}
+	
+	.Track {
+		background-image:url(img/track.png);
+		width:785px;
+		height:67px;
+		background-repeat:no-repeat;
+	}
+	
+	.Person {
+		position:relative;
+		width:100%;
+		height:72px;
+		background-image:url(img/runner_small.png);
+		background-repeat:no-repeat;
+	}
+	
+	.Header {
+		position:relative;
+		background-color:#002F5F;
+		background-repeat:no-repeat;
+		width:785px;
+		height:124px;
+	}
+</style>
+</head>
+<body onload="onLoad()">
+	<div class="Header MenuContainer">
+    	<a target="_blank" href="http://kiwanisfield.com" style="position:relative;display:block;border:none;height:112px;width:328px;background-image:url(img/logo.png);margin-left:auto;margin-right:auto;top:6px;"></a>
+    </div>
+    <div style="display:block;width:785px;height:10px;background-image:url(img/bg.png);background-repeat:repeat;"></div>
+    <div class="Field">
+    	<div class="Raised">Amount raised: $1,429,090</div>
+       	<div class="Goal">Goal: $2,000,000</div>
+   	</div>
+    <div class="Track">
+      	<div class="Person" id="Person"></div>
+   	</div>
+</body>
+</html>

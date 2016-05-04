@@ -1,0 +1,111 @@
+/* Brantford Field of Dreams Theme */
+.Box {
+	display:block;
+	width:900px;
+	background-color:#F4F4F4;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.BoxHeader {
+	position:relative;
+	display:block;
+	background-color:#EAEAEA;
+	width:900px;
+	height:60px;
+	line-height:60px;
+	text-indent:15px;
+	font-size:20px;
+	font-weight:bold;
+	color:#002F5F;
+}
+
+.BoxHeaderSpanStyle {
+	position:absolute;
+	display:block;
+	right:0px;
+	top:0px;
+	margin-right:15px;
+	height:60px;
+	line-hight:60px;
+	font-style:italic;
+	font-size:16px;
+}
+
+.Grid {
+	position:relative;
+	display:block;
+	width:900px;
+	text-align:justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.Grid li {
+	display:inline-block;
+	*display:inline; zoom:1;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.Stretch {
+    width:100%;
+    display:inline-block;
+    font-size:0;
+    line-height:0
+}
+
+.Para {
+	font-size:14px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.Sentence {
+	font-size:14px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.Link {
+	text-decoration:none;
+}
+
+.Link:hover {
+	text-decoration:underline;
+	color:#800000;
+}
+
+.List {
+	text-indent:0px;
+	margin-left:35px;
+	margin-top:5px;
+}
+
+.Bottom {
+	height:5px;
+}
+
+.Gold {
+	background-color:#D4AF37 !important;
+}
+	
+.Silver {
+	background-color:#BCC6CC !important;
+}
+
+.Bronze {
+	background-color:#554A3C !important;
+}
+
+.Transparent {
+	background-color:transparent !important;
+}
